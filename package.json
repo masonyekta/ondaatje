@@ -1,0 +1,39 @@
+{
+	"name": "ondaatje",
+	"version": "0.1.0",
+	"description": "A WordPress block theme for bloggers and writers",
+	"scripts": {
+		"lint": "npx stylelint style.css --fix",
+		"format": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/masonyekta/ondaatje.git"
+	},
+	"keywords": [
+		"wordpress",
+		"theme",
+		"wp",
+		"block",
+		"theme"
+	],
+	"author": "Mason Y",
+	"licenses": [
+		{
+			"type": "GPL-2.0",
+			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/masonyekta/ondaatje/issues"
+	},
+	"homepage": "https://github.com/masonyekta/ondaatje#readme",
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^21.9.0",
+		"prettier": "^2.8.4",
+		"stylelint": "^15.1.0",
+		"stylelint-config-prettier": "^9.0.5",
+		"stylelint-order": "^6.0.2",
+		"stylelint-prettier": "^2.0.0"
+	}
+}

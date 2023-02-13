@@ -1,0 +1,11 @@
+{
+	"extends": "@wordpress/stylelint-config",
+	"plugins": ["stylelint-order", "stylelint-prettier"],
+	"rules": {
+		"prettier/prettier": true,
+		"indentation": "tab",
+		"no-empty-source": null,
+		"order/properties-alphabetical-order": true,
+		"selector-class-pattern": null
+	}
+}

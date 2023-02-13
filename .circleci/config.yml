@@ -1,0 +1,75 @@
+version: 2.1
+
+executors:
+    theme-executor:
+        docker:
+            - image: circleci/php:7.4.22-node
+jobs:
+    build:
+        executor: theme-executor
+        steps:
+            - checkout
+            - run:
+                  name: Install Composer
+                  command: |
+                      composer update
+                      composer install
+            - save_cache:
+                  key: composer-v1-{{ checksum "composer.lock" }}
+                  paths:
+                      - vendor
+            - run:
+                  name: Install Packages
+                  command: |
+                      npm install
+                      npm run lint && npm run format
+            - save_cache:
+                  key: node-v4-{{ checksum "package.json" }}
+                  paths:
+                      - node_modules
+            - run: sudo apt-get update -y
+            - run: sudo apt-get -y install rsync
+            - run:
+                  name: Create Build Folder
+                  command: |
+                      mkdir /home/circleci/project/build
+                      mkdir /home/circleci/project/release
+                      rsync -av /home/circleci/project/ /home/circleci/project/build --exclude node_modules --exclude="ondaatje.zip"
+            - run:
+                  name: Create Zip File
+                  command: |
+                      cd /home/circleci/project/build
+                      ls -all
+                      zip -r --symlinks /home/circleci/project/release/ondaatje.zip . -x '/build/*' -x '/vendor/*' -x .gitignore -x '.git/*' -x package-lock.json -x .eslintrc -x composer.lock -x .stylelintrc.js -x .prettierignore -x phpcs.xml -x composer.json -x '/.github/*' -x '/node_modules/*' -x '.circleci/*' -x '/release/*' -x package.json -x .prettierrc.json -x README.md -x .editorconfig -x composer-lock.json -x composer.lock -x .stylelintrc.json
+            - persist_to_workspace:
+                  root: /home/circleci
+                  paths:
+                      - "release"
+                      - "project"
+            - store_artifacts:
+                  path: /home/circleci/project/release/ondaatje.zip
+    publish-github-release:
+        docker:
+            - image: circleci/golang:1.16
+        steps:
+            - attach_workspace:
+                  at: /home/circleci
+            - run:
+                  name: "Publish Release on GitHub"
+                  command: |
+                      go get github.com/tcnksm/ghr@v0.15.0
+                      VERSION=$(grep 'Version:' /home/circleci/project/readme.txt | awk '{print $2}')
+                      TITLE=$(grep 'Version:' /home/circleci/project/readme.txt | awk '{print $2}')
+                      BODY=$(awk -f /home/circleci/project/.circleci/script /home/circleci/project/readme.txt)
+                      ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -n "${TITLE}" -b "${BODY}" -soft ${VERSION} /home/circleci/project/release/
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - build:
+                  filters:
+                      branches:
+                          only: main
+            - publish-github-release:
+                  requires:
+                      - build

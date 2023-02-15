@@ -4,6 +4,16 @@
 
 A WordPress block theme for bloggers and writers.
 
+```
+Light style demo:
+https://ontaatje.wordifysites.com/
+
+Dark style demo:
+https://ontaatje.wordifysites.com/dark/
+```
+
+Special thanks to [Wordify](https://my.wordify.com/aff.php?aff=148) for hosting the demo sites. [Wordify](https://my.wordify.com/aff.php?aff=148) is a Managed WordPress Hosting Provider with Unlimited Plans on AWS and Google Cloud with servers located in the US, UK, Germany and Australia
+
 ![Preview](https://i.imgur.com/Vqd1rtV.jpg)
 
 ## About Michael Ondaatje

@@ -14,7 +14,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><a href="#">Facebook</a>&nbsp;·&nbsp;<a href="#">Twitter</a></p>
+<p class="has-x-small-font-size"><a href="https://github.com/masonyekta/ondaatje" data-type="URL" data-id="https://github.com/masonyekta/ondaatje" target="_blank" rel="noreferrer noopener">GitHub</a>&nbsp;·&nbsp;<a href="https://twitter.com/masonyekta" data-type="URL" data-id="https://twitter.com/masonyekta" target="_blank" rel="noreferrer noopener">Twitter</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

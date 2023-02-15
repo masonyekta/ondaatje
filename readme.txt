@@ -16,6 +16,7 @@ A WordPress block theme for bloggers and writters.
 
 = 0.2.0 =
 * Added books pattern
+* Removed emojis
 * Updated readme to included demo links
 
 = 0.1.0 =

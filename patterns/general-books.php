@@ -23,15 +23,15 @@
 <!-- /wp:separator -->
 
 <!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":22,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/11713.jpg" alt="The English Patient book cover" class="wp-image-22"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":44,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/warlight-cover.jpg" alt="Warlight book cover" class="wp-image-44"/></figure>
+<!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":24,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/5946.jpg" alt="In the Skin of a Lion book cover" class="wp-image-24"/></figure>
+<!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://ontaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery -->

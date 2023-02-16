@@ -1,6 +1,6 @@
 {
 	"name": "ondaatje",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "A WordPress block theme for bloggers and writers",
 	"scripts": {
 		"lint": "npx stylelint style.css --fix",

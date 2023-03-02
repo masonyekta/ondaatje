@@ -24,14 +24,14 @@
 
 <!-- wp:gallery {"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ondaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
+<figure class="wp-block-image size-full"><img src="#" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ondaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
+<figure class="wp-block-image size-full"><img src="#" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://ondaatje.wordifysites.com/wp-content/uploads/2023/02/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Book cover sample" class="wp-image-48"/></figure>
+<figure class="wp-block-image size-full"><img src="#" alt="Book cover sample" class="wp-image-48"/></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery -->

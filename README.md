@@ -1,6 +1,6 @@
 # Ondaatje
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/masonyekta/ondaatje/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/masonyekta/ondaatje/tree/main) ![version](https://img.shields.io/wordpress/theme/v/ondaatje?label=Version) ![Updated](https://img.shields.io/wordpress/theme/last-updated/ondaatje?label=Updated)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/masonyekta/ondaatje/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/masonyekta/ondaatje/tree/main) ![version](https://img.shields.io/wordpress/theme/v/ondaatje?label=Version) ![Updated](https://img.shields.io/wordpress/theme/last-updated/ondaatje?label=Updated) ![WordPress Theme Downloads](https://img.shields.io/wordpress/theme/dt/ondaatje)
 
 A WordPress block theme for bloggers and writers.
 

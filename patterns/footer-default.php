@@ -5,7 +5,10 @@
  * Categories: footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
+ *
+ * @package ondaatje
  */
+
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"},"margin":{"top":"0px"}}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group alignfull has-small-font-size" style="margin-top:0px;padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"var:preset|color|neutral","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|x-large"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","orientation":"horizontal"}} -->

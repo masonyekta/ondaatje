@@ -18,6 +18,7 @@ A WordPress block theme for bloggers and writters.
 = 0.7.0 =
 * Updated base patterns
 * Added about pattern
+* Removed some styling for latest posts
 
 = 0.6.0 =
 * Updated the theme based on submission feedback

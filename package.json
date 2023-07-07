@@ -31,7 +31,7 @@
 	"devDependencies": {
 		"@wordpress/stylelint-config": "^21.9.0",
 		"prettier": "^2.8.4",
-		"stylelint": "^15.1.0",
+		"stylelint": "^15.10.1",
 		"stylelint-config-prettier": "^9.0.5",
 		"stylelint-order": "^6.0.2",
 		"stylelint-prettier": "^2.0.0"
